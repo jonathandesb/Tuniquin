@@ -1,6 +1,7 @@
 @media (min-width: 320px) and (max-width: 768px) {
   #promocoes {
     width: 100%;
+    background-image: url(/assets/pictures/background-promocões.svg);
   }
   #promocoes img {
     width: 100%;

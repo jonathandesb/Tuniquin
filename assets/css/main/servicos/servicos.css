@@ -1,7 +1,10 @@
-@media (min-width: 320px) and (max-width: 480px) {
+@import url(../servicos/cardAuto.css);
+@import url(../servicos/cardEletro.css);
+
+@media (min-width: 320px) and (max-width: 768px) {
   #servicos {
     text-align: center;
-    margin: 0px 45px;
+    margin: 0px 25px;
   }
 
   #servicos h2 {
@@ -59,26 +62,35 @@
     border-radius: 0 7px 7px 0;
   }
 
-  #cardAuto {
+  #cardAuto, #cardEletro {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  #cardAuto .card {
-    
+  #cardAuto .card, #cardEletro .card{
     width: 250px;
     height: 250px;
     margin: 0 auto;
-    
   }
 
-  #cardAuto .card h3 {
+  #cardAuto .card h3, #cardEletro .card h3 {
     font-size: 20px;
-    color: white;
     margin-top: 45px;
     margin-bottom: 25px;
+    font-family: "Poppins";
+    font-weight: 700;
    }
+
+   #cardAuto .card h3 {
+      color: white;
+   }
+
+   #cardEletro .card h3 {
+    color: black;
+   }
+
+
 
    #cardAuto .card h3::before {
     content: "";
@@ -91,37 +103,81 @@
     transition: width 0.2s;
    }
 
-   #cardAuto .card p {
-    font-size: 10px;
-    color: white;
-    margin: 0px 20px 71px 20px;
+
+
+   #cardEletro .card h3::before {
+    content: "";
+    width: 5px;
+    height: 16px;
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-right: 6px;
+    background-color: black;
+    transition: width 0.2s;
    }
 
-  .cargaDeGas {
+   #cardAuto .card p, #cardEletro .card p {
+    font-size: 12px;
+    margin: 0px 20px 71px 20px;
+   }
    
+   #cardAuto .card p {
+    color: white;
+   }
+
+   #cardEletro .card p {
+    color: black;
+    font-weight: 700;
+   }
+
+.cargaDeGas, .limpezaFiltro, .oleoCompressor, .chaveCodificada, .injecaoEletronica, .alternadorArranque, .vidroEletrico, .lampadaFarol, .chicoteEletrico {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 250px;
+  line-height: 1rem;
+}
+
+  .cargaDeGas {
     background-image: url(/assets/pictures/auto-gas-mobile.svg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 250px;
   }
 
   .limpezaFiltro {
     background-image: url(/assets/pictures/auto-filtro-mobile.svg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 250px;
   }
 
 
   .oleoCompressor {
     background-image: url(/assets/pictures/auto-oleo-mobile.svg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    width: 250px;
-    height: 250px;
+  }
+
+  /* eletrica */
+
+  .chaveCodificada {
+    background-image: url(/assets/pictures/eletro-chave-mobile.svg);
+  }
+
+  .injecaoEletronica{
+    background-image: url(/assets/pictures/eletro-injecao-mobile.svg);
   }
 
 
+  .alternadorArranque {
+    background-image: url(/assets/pictures/eletro-arranque-mobile.svg);
+  }
+
+  .vidroEletrico {
+    background-image: url(/assets/pictures/eletro-modulo-mobile.svg);
+  }
+
+  .lampadaFarol {
+    background-image: url(/assets/pictures/eletro-lanterna-mobile.svg);
+  }
+
+  
+  .chicoteEletrico {
+    background-image: url(/assets/pictures/eletro-chicote-mobile.svg);
+  }
+
 }
+
