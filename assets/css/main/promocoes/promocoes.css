@@ -1,12 +1,13 @@
-@media (min-width: 320px) and (max-width: 480px) {
-    #promocoes{
-        
-        width: 100%;
-    }
-    #promocoes img {
-        width: 100%;
-
-    
-    }
+@media (min-width: 320px) and (max-width: 768px) {
+  #promocoes {
+    width: 100%;
+  }
+  #promocoes img {
+    width: 100%;
+    margin: -5px 0;
+    border-radius: 7px;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
 
 }

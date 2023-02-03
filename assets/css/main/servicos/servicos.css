@@ -13,10 +13,22 @@
 
   #servicos h2::before {
     content: "";
-    width: 12px;
-    height: 8px;
+    width: 30px;
+    height: 4px;
     display: inline-block;
-    margin-right: 8px;
+    margin-bottom: 8px;
+    margin-right: 12px;
+    background-color: black;
+    transition: width 0.2s;
+  }
+
+  #servicos h2::after {
+    content: "";
+    width: 30px;
+    height: 4px;
+    display: inline-block;
+    margin-bottom: 8px;
+    margin-left: 12px;
     background-color: black;
     transition: width 0.2s;
   }
@@ -27,21 +39,24 @@
   }
 
   button {
-    width: 150px;
+    width: 125px;
     height: 41px;
     border: none;
     font-family: "Poppins";
     font-weight: 700;
+    margin-bottom: 20px;
   }
 
   #buttonAutomotivo {
     background-color: #0a3167;
     color: white;
+    border-radius: 7px 0 0 7px;
   }
 
   #buttonEletrico {
     background-color: #ffc700;
     color: #0A3167;
+    border-radius: 0 7px 7px 0;
   }
 
   #cardAuto {
@@ -51,18 +66,30 @@
   }
 
   #cardAuto .card {
-    width: 100%;
-    margin: 20px 0px 0px 0px;
+    
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
     
   }
 
-  #cardAuto .card h2 {
+  #cardAuto .card h3 {
     font-size: 20px;
     color: white;
     margin-top: 45px;
     margin-bottom: 25px;
    }
 
+   #cardAuto .card h3::before {
+    content: "";
+    width: 5px;
+    height: 16px;
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-right: 6px;
+    background-color:  #ffc700;
+    transition: width 0.2s;
+   }
 
    #cardAuto .card p {
     font-size: 10px;
@@ -71,22 +98,29 @@
    }
 
   .cargaDeGas {
-    background-image: url(/assets/pictures/backgroundmobile.svg);
+   
+    background-image: url(/assets/pictures/auto-gas-mobile.svg);
     background-size: 100%;
     background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
   }
 
   .limpezaFiltro {
-    background-image: url(/assets/pictures/limpeza\ de\ filtros.svg);
+    background-image: url(/assets/pictures/auto-filtro-mobile.svg);
     background-size: 100%;
     background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
   }
 
 
   .oleoCompressor {
-    background-image: url(/assets/pictures/);
+    background-image: url(/assets/pictures/auto-oleo-mobile.svg);
     background-size: 100%;
     background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
   }
 
 
