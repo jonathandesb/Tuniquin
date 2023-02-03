@@ -1,0 +1,12 @@
+@media (min-width: 320px) and (max-width: 480px) {
+  #localizacao {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mapa {
+    width: 65%;
+    height: 30vh;
+  }
+}

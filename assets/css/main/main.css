@@ -1,0 +1,10 @@
+@import url(servicos/servicos.css);
+@import url(promocoes/promocoes.css);
+@import url(localizacao/localizacao.css);
+
+
+@media (min-width: 320px) and (max-width: 480px){ 
+    main {
+        
+    }
+}

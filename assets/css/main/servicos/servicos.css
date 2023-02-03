@@ -1,0 +1,93 @@
+@media (min-width: 320px) and (max-width: 480px) {
+  #servicos {
+    text-align: center;
+    margin: 0px 45px;
+  }
+
+  #servicos h2 {
+    margin: 40px 0px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  #servicos h2::before {
+    content: "";
+    width: 12px;
+    height: 8px;
+    display: inline-block;
+    margin-right: 8px;
+    background-color: black;
+    transition: width 0.2s;
+  }
+
+  #buttons {
+    display: flex;
+    justify-content: center;
+  }
+
+  button {
+    width: 150px;
+    height: 41px;
+    border: none;
+    font-family: "Poppins";
+    font-weight: 700;
+  }
+
+  #buttonAutomotivo {
+    background-color: #0a3167;
+    color: white;
+  }
+
+  #buttonEletrico {
+    background-color: #ffc700;
+    color: #0A3167;
+  }
+
+  #cardAuto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #cardAuto .card {
+    width: 100%;
+    margin: 20px 0px 0px 0px;
+    
+  }
+
+  #cardAuto .card h2 {
+    font-size: 20px;
+    color: white;
+    margin-top: 45px;
+    margin-bottom: 25px;
+   }
+
+
+   #cardAuto .card p {
+    font-size: 10px;
+    color: white;
+    margin: 0px 20px 71px 20px;
+   }
+
+  .cargaDeGas {
+    background-image: url(/assets/pictures/backgroundmobile.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .limpezaFiltro {
+    background-image: url(/assets/pictures/limpeza\ de\ filtros.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+
+  .oleoCompressor {
+    background-image: url(/assets/pictures/);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+
+}
