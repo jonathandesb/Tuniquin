@@ -36,9 +36,15 @@
     color: white;
   }
 }
-@media(min-width:769) and (max-width:1024){
-.footer{
+@media(min-width:769px) and (max-width:1024px){
+  
+footer{
   background-color: #0a3167;
+  flex-direction: column
 }
+.horarios{
+
+}
+
 
 }

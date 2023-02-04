@@ -74,7 +74,13 @@
     margin: 0 auto;
   }
 
-  #cardAuto .card h3, #cardEletro .card h3 {
+  .cardInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #cardAuto .cardInfo h3, #cardEletro .cardInfo h3 {
     font-size: 20px;
     margin-top: 45px;
     margin-bottom: 25px;
@@ -82,17 +88,17 @@
     font-weight: 700;
    }
 
-   #cardAuto .card h3 {
+   #cardAuto .cardInfo h3 {
       color: white;
    }
 
-   #cardEletro .card h3 {
+   #cardEletro .cardInfo h3 {
     color: black;
    }
 
 
 
-   #cardAuto .card h3::before {
+   .cardInfo h3::before {
     content: "";
     width: 5px;
     height: 16px;
@@ -105,7 +111,7 @@
 
 
 
-   #cardEletro .card h3::before {
+   #cardEletro .cardInfo h3::before {
     content: "";
     width: 5px;
     height: 16px;
@@ -116,16 +122,16 @@
     transition: width 0.2s;
    }
 
-   #cardAuto .card p, #cardEletro .card p {
+   #cardAuto .cardInfo p, #cardEletro .cardInfo p {
     font-size: 12px;
     margin: 0px 20px 71px 20px;
    }
    
-   #cardAuto .card p {
+   #cardAuto .cardInfo p {
     color: white;
    }
 
-   #cardEletro .card p {
+   #cardEletro .cardInfo p {
     color: black;
     font-weight: 700;
    }
@@ -139,7 +145,7 @@
 }
 
   .cargaDeGas {
-    background-image: url(/assets/pictures/auto-gas-mobile.jpg);
+    background-image: url(/assets/pictures/test.png);
   }
 
   .limpezaFiltro {
