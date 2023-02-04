@@ -58,17 +58,121 @@
 
   #buttonEletrico {
     background-color: #ffc700;
-    color: #0A3167;
+    color: #0a3167;
     border-radius: 0 7px 7px 0;
   }
- 
+
+  #cardAuto, #cardEletro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
   
   .card {
-    background-image: url("../../../pictures/test.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .card h3{
+    font-weight: 700;
+    margin-bottom: 25px;
+    font-size: 1.375rem;
+  }
+
+  #cardAuto .card h3,
+  #cardAuto .card p {
+    color: #ffffff;
+  }
+
+  #cardAuto .card h3:before {
+    content: "";
+    width: 6px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 8px;
+    background-color: red;
+  }
+  
+
+  
+  .cardAutoGas {
+    background-image: url("../../../pictures/auto-gas-mobile.svg");
     background-repeat: no-repeat;
     background-size: contain;
-    width: 200px;
-    height: 200px;
-    
+    width: 274px;
+    height: 245px;
+  }
+
+  .cardAutoFiltro {
+    background-image: url("../../../pictures/auto-filtro-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 274px;
+    height: 245px;
+  }
+
+  .cardAutoOleo {
+    background-image: url("../../../pictures/auto-oleo-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 274px;
+    height: 245px;
+  }
+  
+
+  /* eletrico */
+
+  .cardEletroChave{
+    background-image: url("../../../pictures/eletro-chave-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 274px;
+    height: 245px;
+  }
+
+  .cardEletroInjecao {
+    background-image: url("../../../pictures/eletro-injecao-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 274px;
+    height: 245px;
+  }
+
+  .cardEletroArranque{
+    background-image: url("../../../pictures/eletro-arranque-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 274px;
+    height: 245px;
+  }
+
+  .cardEletroVidro {
+    background-image: url("../../../pictures/eletro-modulo-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 274px;
+    height: 245px;
+  }
+
+  .cardEletroLampada {
+    background-image: url("../../../pictures/eletro-lanterna-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 274px;
+    height: 245px;
+  }
+ 
+
+  .cardEletroChicote {
+    background-image: url("../../../pictures/eletro-chicote-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 274px;
+    height: 245px;
   }
 }
