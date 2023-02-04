@@ -67,6 +67,8 @@
     background-image: url("../../../pictures/test.png");
     background-repeat: no-repeat;
     background-size: contain;
+    width: 200px;
+    height: 200px;
     
   }
 }
