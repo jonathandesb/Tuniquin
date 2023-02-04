@@ -56,16 +56,20 @@ footer{
 .horarios{
 text-align: center;
 font-size: 20px;
+display: flex;
 }
 
 .horarios h3,
 .contatos h3{
   color: yellow;
+  font-size: 20px;
 }
 
 .horarios  li,
 .contatos li{
   color: white;
+  font-size: 20px;
+  
 }
 
 }
