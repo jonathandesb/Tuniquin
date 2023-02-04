@@ -1,17 +1,17 @@
 function clickAutomotivo() {
-  if (cardAuto.style.display == "block"){
-    cardAuto.style.display = "flex"
+  if (cardAutoMobile.style.display == "block"){
+    cardAutoMobile.style.display = "flex"
   } else {
-    cardAuto.style.display = "flex"
-    cardEletro.style.display = "none"
+    cardAutoMobile.style.display = "flex"
+    cardEletroMobile.style.display = "none"
   }
  }
 
  function clickEletrico() {
-  if (cardEletro.style.display == "flex"){
-    cardEletro.style.display = "flex"
+  if (cardEletroMobile.style.display == "flex"){
+    cardEletroMobile.style.display = "flex"
   } else {
-    cardEletro.style.display = "flex"
-    cardAuto.style.display = "none"
+    cardEletroMobile.style.display = "flex"
+    cardAutoMobile.style.display = "none"
   }
  }

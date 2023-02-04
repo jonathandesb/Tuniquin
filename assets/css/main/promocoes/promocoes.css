@@ -1,12 +1,24 @@
 @media (min-width: 320px) and (max-width: 768px) {
   #promocoes {
     width: 100%;
-    background-image: url(/assets/pictures/background-promocões.svg);
+    
   }
   #promocoes img {
     width: 100%;
   }
 }
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 769px) and (max-width: 1024px) {
+  #promocoes {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: none;
+    box-shadow: inset 0 -60px black;
+  }
+  #promocoes img {
+    border: none;
+    width: 500px;
+    height: 300px;
+  }
 
 }

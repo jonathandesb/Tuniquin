@@ -62,7 +62,7 @@
     border-radius: 0 7px 7px 0;
   }
 
-  #cardAuto, #cardEletro{
+  #cardAutoMobile, #cardEletroMobile{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -85,25 +85,25 @@
     font-size: 1.375rem;
   }
 
-  #cardAuto .card h3,
-  #cardAuto .card p {
+  #cardAutoMobile .card h3,
+  #cardAutoMobile .card p {
     color: #ffffff;
   }
   
-  #cardAuto .card p, 
-  #cardEletro .card p {
+  #cardAutoMobile .card p, 
+  #cardEletroMobile .card p {
     margin: 0 10px;
   }
 
-  #cardEletro .card p {
+  #cardEletroMobile .card p {
     font-weight: 700;
   }
   
 
 
 
-  #cardAuto .card h3:before, 
-  #cardEletro .card h3:before {
+  #cardAutoMobile .card h3:before, 
+  #cardEletroMobile .card h3:before {
     content: "";
     width: 6px;
     height: 16px;
@@ -112,11 +112,11 @@
   }
   
   
-  #cardAuto .card h3:before {
+  #cardAutoMobile .card h3:before {
     background-color: #FFC700;
   }
   
-  #cardEletro .card h3:before {
+  #cardEletroMobile .card h3:before {
     background-color: #0A3167;
 
   }
@@ -170,8 +170,10 @@
   .cardEletroChicote {
     background-image: url("../../../pictures/eletro-chicote-mobile.svg");
   }
-
-  #cardEletro{
+  #cardAutoDesktop{
+    display: none;
+  }
+  #cardEletroMobile{
     display: none;
   }
 }
@@ -187,3 +189,9 @@
     width: 175px;
   }
 }
+
+@media (min-width: 769px) and (max-width: 1024px) { 
+  
+}
+
+
