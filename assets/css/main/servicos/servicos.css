@@ -62,10 +62,13 @@
     border-radius: 0 7px 7px 0;
   }
  
+
+  
   
   .card {
+    background-color: red;
     background-image: url(/assets/pictures/test.png);
     background-repeat: no-repeat;
-    back
+    background-size: contain;
   }
-
+}
