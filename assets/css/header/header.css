@@ -9,6 +9,8 @@
     background-position: center center;
     display: flex;
     align-items: center;
+    flex-direction: column;
+    justify-content: center;
   }
 
   header div {
@@ -44,6 +46,7 @@
   }
 
   header .orcamento {
+    height: 38px;
     width: 250px;
     font-weight: 1000;
     font-size: 18px;
@@ -59,7 +62,15 @@
     display: flex;
     gap: 5px;
   }
+
+  header .vetor{
+    width: 64px;
+    margin-top: 150px;
+
+    
+  }
 }
+
 
 @media (min-width: 481px) and (max-width: 768px){
 
@@ -88,7 +99,7 @@
 
 
 
-@media (min-width: 769px) and (max-width: 1024px){
+@media (min-width: 769px){
   
   header {
     width: 100%;
@@ -98,45 +109,51 @@
     background-size: cover;
     background-position: center center;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    
   }
 
   header div {
-    margin: 0 25px;
+    margin: 25px 25px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    text-align: left;
+    
   }
 
   header img {
-    margin: 0px 0px 40px 0px;
-    width: 160px;
+    margin: 25px 0px 40px 25px;
+    width: 185px;
   }
 
   header div h3 {
-    font-size: 23px;
+    font-size: 34px;
     font-weight: 1000;
     color: white;
+    margin: 20px 0;
   }
 
   header div h1 {
-    font-size: 30px;
+    font-size: 70px;
     font-weight: 1000;
     color: #ffc700;
+    width: 700px;
   }
 
   header div p {
-    font-size: 16px;
+    font-size: 27px;
     font-weight: 1000;
     color: #ffffff;
-    line-height: 20px;
+    line-height: 30px;
+    margin: 20px 0;
+    width: 547px;
   }
 
   header .orcamento {
-    width: 75vw;
+    height: 43px;
+    width: 500px;
     font-weight: 1000;
-    font-size: 18px;
+    font-size: 24px;
     color: black;
     background-color: #ffc700;
     border-radius: 30px;
@@ -149,4 +166,23 @@
     display: flex;
     gap: 5px;
   }
+  header .vetor{
+    width: 40px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
 }
+  @media (min-width: 1440px){
+    header .vetor{
+      width: 40px;
+      margin: 0 auto;
+      margin-top: 70px;
+    }
+  }
+  @media (min-width: 1740px){
+    header .vetor{
+      width: 40px;
+      margin: 0 auto;
+      margin-top: 130px;
+    }
+  }

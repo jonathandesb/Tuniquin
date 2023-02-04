@@ -62,23 +62,21 @@
     border-radius: 0 7px 7px 0;
   }
 
-  #cardAutoMobile, #cardEletroMobile{
+  #cardAutoMobile,
+  #cardEletroMobile {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  
-  
-  
+
   .card {
     line-height: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
   }
-  
+
   .card h3 {
     font-weight: 700;
     margin-bottom: 25px;
@@ -89,8 +87,8 @@
   #cardAutoMobile .card p {
     color: #ffffff;
   }
-  
-  #cardAutoMobile .card p, 
+
+  #cardAutoMobile .card p,
   #cardEletroMobile .card p {
     margin: 0 10px;
   }
@@ -98,11 +96,8 @@
   #cardEletroMobile .card p {
     font-weight: 700;
   }
-  
 
-
-
-  #cardAutoMobile .card h3:before, 
+  #cardAutoMobile .card h3:before,
   #cardEletroMobile .card h3:before {
     content: "";
     width: 6px;
@@ -110,31 +105,29 @@
     display: inline-block;
     margin-right: 8px;
   }
-  
-  
-  #cardAutoMobile .card h3:before {
-    background-color: #FFC700;
-  }
-  
-  #cardEletroMobile .card h3:before {
-    background-color: #0A3167;
 
+  #cardAutoMobile .card h3:before {
+    background-color: #ffc700;
   }
-  .cardAutoGas,   
-  .cardAutoFiltro,   
-  .cardAutoOleo,    
-  .cardEletroChave, 
-  .cardEletroInjecao, 
-  .cardEletroArranque,   
-  .cardEletroVidro,   
-  .cardEletroLampada,  
-  .cardEletroChicote{
+
+  #cardEletroMobile .card h3:before {
+    background-color: #0a3167;
+  }
+  .cardAutoGas,
+  .cardAutoFiltro,
+  .cardAutoOleo,
+  .cardEletroChave,
+  .cardEletroInjecao,
+  .cardEletroArranque,
+  .cardEletroVidro,
+  .cardEletroLampada,
+  .cardEletroChicote {
     background-repeat: no-repeat;
     background-size: contain;
     width: 274px;
     height: 245px;
   }
-  
+
   .cardAutoGas {
     background-image: url("../../../pictures/auto-gas-mobile.svg");
   }
@@ -146,8 +139,8 @@
   .cardAutoOleo {
     background-image: url("../../../pictures/auto-oleo-mobile.svg");
   }
-  
-  .cardEletroChave{
+
+  .cardEletroChave {
     background-image: url("../../../pictures/eletro-chave-mobile.svg");
   }
 
@@ -155,7 +148,7 @@
     background-image: url("../../../pictures/eletro-injecao-mobile.svg");
   }
 
-  .cardEletroArranque{
+  .cardEletroArranque {
     background-image: url("../../../pictures/eletro-arranque-mobile.svg");
   }
 
@@ -170,10 +163,11 @@
   .cardEletroChicote {
     background-image: url("../../../pictures/eletro-chicote-mobile.svg");
   }
-  #cardAutoDesktop{
-    display: none;
-  }
-  #cardEletroMobile{
+
+  #cardAutoDesktop,
+  #cardEletroDesktop,
+  #cardEletroMobile,
+  div#buttons\ buttonDesktop {
     display: none;
   }
 }
@@ -190,8 +184,82 @@
   }
 }
 
-@media (min-width: 769px) and (max-width: 1024px) { 
-  
+@media (min-width: 769px) {
+  #cardEletroDesktop,
+  #cardAutoDesktop {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  #cardEletroDesktop .card,
+  #cardAutoDesktop .card {
+    border-radius: 10px;
+
+    width: 250px;
+    height: 380px;
+  }
+
+  #cardEletroDesktop .card {
+    background-color: #ffc700;
+  }
+
+  #cardAutoDesktop .card {
+   background-color: #0a3167;;
+  }
+
+  .card h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 1.625rem;
+    font-weight: 700;
+  }
+
+  #cardEletroDesktop .card h3:before,
+  #cardAutoDesktop .card h3:before {
+    content: "";
+    width: 6px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 8px;
+  }
+
+  #cardEletroDesktop .card h3:before,
+  #cardAutoDesktop .card h3:before {
+    background-color: #0a3167;
+  }
+
+  .card p {
+    line-height: 1rem;
+    text-align: center;
+  }
+
+  .card img {
+    padding: 6px;
+    width: 96%;
+  }
+
+  #cardEletroDesktop,
+  #cardAutoMobile,
+  #cardEletroMobile,
+  div#buttons\ buttonMobile {
+    display: none;
+  }
 }
 
+@media (min-width: 1024px) {
+  #cardEletroDesktop,
+  #cardAutoDesktop {
+    width: 88%;
+  }
 
+  #cardEletroDesktop .card,
+  #cardAutoDesktop .card {
+    width: 400px;
+    height: 500px;
+  }
+}

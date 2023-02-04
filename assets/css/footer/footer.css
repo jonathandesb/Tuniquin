@@ -54,45 +54,57 @@
 
 
 
-@media(min-width:769px) and (max-width:1024px){
+@media(min-width:769px){
   
   .footer {
-    width: 100%;
-    margin: 0px 25px;
+    width: 86%;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
-    gap: 30px;
     align-items: center;
+    justify-content: space-between;
     text-align: center;
     font-weight: 1000;
   }
   .footer img {
-    width: 220px;
+    width: 218px;
   }
 
   footer {
-    width: 100%;
     height: 40vh;
     background-color: #0a3167;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
 
   footer h3 {
     color: #ffc700;
-    font-size: 22px;
+    font-size: 27px;
   }
 
   .horarios ul,
   .contatos ul {
     margin-top: 10px;
+    
   }
 
   .horarios li,
   .contatos li {
     margin-top: 5px;
     color: white;
+    font-size: 16px;
   }
-
+  .footerbarra{
+  width: 100%;
+  background-color: #061F42;
+  font-size: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  }
+  .codei{
+    width: 70px;
+  }
 }

@@ -18,14 +18,16 @@
     height: 30vh;
   }
 }
-@media (min-width: 769px) and (max-width: 1024px){
+@media (min-width: 769px) {
   #localizacao {
     background-color: black;
     border: none;
-}
+  }
+
 .boxMapa{
     padding: 20px;
   }
+
   #localizacao h2{
     text-align: center;
     color: #ffc700;
