@@ -44,7 +44,7 @@
   }
 
   header .orcamento {
-    width: 75vw;
+    width: 250px;
     font-weight: 1000;
     font-size: 18px;
     color: black;
@@ -81,6 +81,7 @@
 
   header .orcamento {
     font-size: 22px;
+    width: 320px;
   }
 }
 

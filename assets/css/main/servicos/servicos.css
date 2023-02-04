@@ -50,13 +50,13 @@
     margin-bottom: 20px;
   }
 
-  #buttonAutomotivo {
+  .buttonAutomotivo {
     background-color: #0a3167;
     color: white;
     border-radius: 7px 0 0 7px;
   }
 
-  #buttonEletrico {
+  .buttonEletrico {
     background-color: #ffc700;
     color: #0a3167;
     border-radius: 0 7px 7px 0;
@@ -117,10 +117,9 @@
   }
   
   #cardEletro .card h3:before {
-    background-color: black;
+    background-color: #0A3167;
+
   }
-
-
   .cardAutoGas,   
   .cardAutoFiltro,   
   .cardAutoOleo,    
