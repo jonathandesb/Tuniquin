@@ -131,8 +131,7 @@
    }
 
 .cargaDeGas, .limpezaFiltro, .oleoCompressor, .chaveCodificada, .injecaoEletronica, .alternadorArranque, .vidroEletrico, .lampadaFarol, .chicoteEletrico {
-  background-size: 100%;
-  background-repeat: no-repeat;
+  
   width: 100%;
   height: 250px;
   line-height: 1rem;
@@ -140,43 +139,61 @@
 
   .cargaDeGas {
     background-image: url(/assets/pictures/auto-gas-mobile.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
 
   .limpezaFiltro {
     background-image: url(/assets/pictures/auto-filtro-mobile.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
 
 
   .oleoCompressor {
     background-image: url(/assets/pictures/auto-oleo-mobile.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
 
   /* eletrica */
 
   .chaveCodificada {
     background-image: url(/assets/pictures/eletro-chave-mobile.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
 
   .injecaoEletronica{
     background-image: url(/assets/pictures/eletro-injecao-mobile.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
 
 
   .alternadorArranque {
     background-image: url(/assets/pictures/eletro-arranque-mobile.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
 
   .vidroEletrico {
     background-image: url(/assets/pictures/eletro-modulo-mobile.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
 
   .lampadaFarol {
     background-image: url(/assets/pictures/eletro-lanterna-mobile.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
 
   
   .chicoteEletrico {
     background-image: url(/assets/pictures/eletro-chicote-mobile.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
 
 
