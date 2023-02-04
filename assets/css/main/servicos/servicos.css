@@ -64,8 +64,10 @@
  
   
   .card {
-    background-image: url("../../../pictures/test.png");
+    background-image: url("../../pictures/test.png");
     background-repeat: no-repeat;
     background-size: contain;
+    width: 300px;
+    height: 300px;
   }
 }
