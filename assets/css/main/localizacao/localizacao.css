@@ -1,18 +1,17 @@
 @media (min-width: 320px) and (max-width: 768px) {
   #localizacao {
     background-color: black;
-    height: 45vh;
     
 }
 .boxMapa{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 20px;
   }
-  .boxMapa h2{
+  #localizacao h2{
+    text-align: center;
     color: #ffc700;
     font-weight: 800;
-    margin: 20px 0 10px;
+    padding-top: 50px;
+    font-size: 2rem;
   }
   .mapa {
     width: 100%;
