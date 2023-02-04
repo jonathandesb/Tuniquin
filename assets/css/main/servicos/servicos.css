@@ -64,8 +64,8 @@
  
   
   .card {
-    background-color: red;
-    background-image: url(/assets/pictures/test.png);
+    
+    background-image: url("/assets/pictures/test.png");
     background-repeat: no-repeat;
     background-size: contain;
   }

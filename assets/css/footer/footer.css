@@ -38,11 +38,18 @@
 }
 
 @media(min-width:481px) and (max-width:769px){
+  .footer img {
+    width: 240px;
+  }
+
   footer h3 {
     font-size: 30px;
   }
   
-  
+  .horarios li,
+  .contatos li {
+    font-size: 20px;
+  }
 }
 
 
@@ -84,7 +91,6 @@ font-size: 20px;
 .contatos li{
   color: white;
   font-size: 20px;
-  
 }
 
 }
