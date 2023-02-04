@@ -55,14 +55,16 @@ footer{
 
 .horarios{
 text-align: center;
+font-size: 20px;
 }
 
 .horarios h3,
 .contatos h3{
   color: yellow;
 }
-.horarios p,
-.contatos p{
+
+.horarios  li,
+.contatos li{
   color: white;
 }
 
