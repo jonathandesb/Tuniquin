@@ -69,7 +69,7 @@ footer{
 }
 
 .logo{
-  width: 15px;
+  width: 10px;
 }
 
 .horarios{
@@ -81,14 +81,15 @@ font-size: 20px;
 .contatos h3{
   color: yellow;
   font-size: 20px;
-justify-items: center;
+  height: 35px;
+  
 }
 
 .horarios  li,
 .contatos li{
   color: white;
   font-size: 20px;
-  height: 25px;
+  height: 35px;
 }
 
 }
