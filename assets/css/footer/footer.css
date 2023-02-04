@@ -40,22 +40,30 @@
   
 footer{
   background-color: #0a3167;
-  display: flex;
-  flex-direction: row;
+  
 }
+
 .footer{
   background-color: #0a3167;
   display: flex;
   flex-direction: row;
 }
+
+.logo{
+  width: 150px;
+}
+
 .horarios{
 text-align: center;
+}
 
+.horarios h3,
+.contatos h3{
+  color: yellow;
 }
-.horarios h3{
-color:
+.horarios p,
+.contatos p{
+  color: white;
 }
-.contatos{
-color: 
-}
+
 }
