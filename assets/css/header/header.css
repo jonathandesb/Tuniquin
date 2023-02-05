@@ -114,7 +114,7 @@
   }
 
   header div {
-    margin: 25px 25px;
+    margin: 25px 50px;
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -122,43 +122,44 @@
   }
 
   header img {
-    margin: 25px 0px 40px 25px;
+    margin: 25px 0px 40px 48px;
     width: 185px;
   }
 
   header div h3 {
-    font-size: 34px;
+    font-size: 30px;
     font-weight: 1000;
     color: white;
     margin: 20px 0;
   }
 
   header div h1 {
-    font-size: 70px;
+    font-size: 48px;
     font-weight: 1000;
     color: #ffc700;
-    width: 700px;
+    width: 470px;
+
   }
 
   header div p {
-    font-size: 27px;
+    font-size: 20px;
     font-weight: 1000;
     color: #ffffff;
     line-height: 30px;
     margin: 20px 0;
-    width: 547px;
+    width: 430px;
   }
 
   header .orcamento {
     height: 43px;
-    width: 500px;
+    width: 380px;
     font-weight: 1000;
     font-size: 24px;
     color: black;
     background-color: #ffc700;
     border-radius: 30px;
     border-style: none;
-    margin-top: 10px;
+    margin: 15px 50px;
   }
 
   .text {
@@ -166,10 +167,45 @@
     display: flex;
     gap: 5px;
   }
-  header .vetor{
+  .vetor{
+    display: block;
     width: 40px;
     margin: 0 auto;
     margin-top: 50px;
+  
+  }
+
+  #header a img:hover {
+    transform: scale(1.3);
+    transition: all 0.5s;
+  }
+  
+}
+  
+  @media (min-width: 1024px){
+  
+  header div h3 {
+    font-size: 40px;
+    font-weight: 1000;
+    color: white;
+    margin: 20px 0;
+  }
+  
+  header div h1 {
+    font-size: 73px;
+    font-weight: 1000;
+    color: #ffc700;
+    width: 650px;
+  
+  }
+  
+  header div p {
+    font-size: 20px;
+    font-weight: 1000;
+    color: #ffffff;
+    line-height: 30px;
+    margin: 20px 0;
+    width: 430px;
   }
 }
   @media (min-width: 1440px){
@@ -186,3 +222,5 @@
       margin-top: 130px;
     }
   }
+  
+  

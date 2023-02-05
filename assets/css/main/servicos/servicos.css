@@ -185,23 +185,99 @@
 }
 
 @media (min-width: 769px) {
+  
+  #servicos {
+    text-align: center;
+    margin: 0px 25px;
+  }
+
+  #servicos h2 {
+    margin: 40px 0px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  #servicos h2::before {
+    content: "";
+    width: 30px;
+    height: 4px;
+    display: inline-block;
+    margin-bottom: 8px;
+    margin-right: 12px;
+    background-color: #0A3167;
+    transition: width 0.2s;
+  }
+
+  #servicos h2::after {
+    content: "";
+    width: 30px;
+    height: 4px;
+    display: inline-block;
+    margin-bottom: 8px;
+    margin-left: 12px;
+    background-color: #0A3167;
+    transition: width 0.2s;
+  }
+
+  #buttons {
+    
+    display: flex;
+    justify-content: center;
+  }
+
+  button {
+    
+    width: 185px;
+    height: 41px;
+    border: none;
+    font-family: "Poppins";
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
+
+  button:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+  }
+
+  .buttonAutomotivo {
+    background-color: #0a3167;
+    color: white;
+    border-radius: 7px 0 0 7px;
+  }
+
+  .buttonEletrico {
+    background-color: #ffc700;
+    color: #0a3167;
+    border-radius: 0 7px 7px 0;
+  }
   #cardEletroDesktop,
   #cardAutoDesktop {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
+  
   }
 
   #cardEletroDesktop .card,
   #cardAutoDesktop .card {
     border-radius: 10px;
-
+    opacity:0.9;
+    transition: all 0.5s;
     width: 250px;
-    height: 380px;
+    height: 450px;
   }
+
+  #cardEletroDesktop .card:hover,
+  #cardAutoDesktop .card:hover {
+    opacity:1;
+  }
+ 
 
   #cardEletroDesktop .card {
     background-color: #ffc700;
@@ -211,13 +287,28 @@
    background-color: #0a3167;;
   }
 
+  #cardEletroDesktop .card p, #cardAutoDesktop .card p{
+    padding: 0px 15px;
+  }
+
   .card h3 {
     margin-top: 15px;
     margin-bottom: 10px;
     text-align: center;
     font-size: 1.625rem;
     font-weight: 700;
+    
   }
+
+  #cardAutoDesktop .card h3,   #cardEletroDesktop h3 {
+    font-size: 1.2rem;
+    padding: 0 20px;
+  }
+  
+  #cardAutoDesktop .card h3, #cardAutoDesktop .card p {
+    color: white;
+    
+  } 
 
   #cardEletroDesktop .card h3:before,
   #cardAutoDesktop .card h3:before {
@@ -228,9 +319,12 @@
     margin-right: 8px;
   }
 
-  #cardEletroDesktop .card h3:before,
-  #cardAutoDesktop .card h3:before {
+  #cardEletroDesktop .card h3:before{
     background-color: #0a3167;
+  }
+
+  #cardAutoDesktop .card h3:before {
+    background-color: #ffc700;
   }
 
   .card p {
@@ -261,5 +355,10 @@
   #cardAutoDesktop .card {
     width: 400px;
     height: 500px;
+  }
+
+  
+  button {
+    width: 260px;
   }
 }
